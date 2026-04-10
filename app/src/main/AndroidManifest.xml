@@ -12,6 +12,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RaizQuadratica">
         <activity
+            android:name=".ResultActivity"
+            android:exported="false"
+            android:label="Resultados"/>
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
